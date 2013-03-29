@@ -1,7 +1,7 @@
 Two sites
 
-1. widget_sites: loads widget_loader.js
-2. widget_loader: serves w idget_loader.js and /widgets
+1. widget_sites: loads widget_loader.js; Sample site, http://widget_site.yoshimoshi.com
+2. widget_loader: serves w idget_loader.js and /widgets; Sample site, http://widget_loader.yoshimoshi.com
 
 Widget Structure
 
