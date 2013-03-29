@@ -15,26 +15,27 @@ These will automatically be loaded from the widgetloader
 
 $name.js required structure,
 
-widget = {
-    name: 'sample',
-    init: function(){ //init will be called by widget_loader
+#widget
 
-    	  //handle your events here
-    	  this.$el = $('#' + this.name);
-	  $('input', this.$el).click( function(e){
-	  	e.preventDefault();
-		console.log('test');
-	  });
-    }
-}
+	widget = {
+	    name: 'sample',
+	    init: function(){ //init will be called by widget_loader
+		//handle your events here
+	    	  this.$el = $('#' + this.name);
+		  $('input', this.$el).click( function(e){
+		  	e.preventDefault();
+			console.log('test');
+		  });
+	    }
+	}
 
-$name.css naming convention
+#$name.css naming convention
 
-//need to use !important
-//#id = widget.name property defined in js
-#sample.cleanslate{
-    position: fixed!important;
-    top: 0!important;
-    right: 0!important;
-    background-color: grey!important;
-}
+	//need to use !important
+	//#id = widget.name property defined in js
+	#sample.cleanslate{
+	    position: fixed!important;
+	    top: 0!important;
+	    right: 0!important;
+	    background-color: grey!important;
+	}
